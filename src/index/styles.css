@@ -1,0 +1,55 @@
+.izq {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 250px;
+}
+.der {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+.contCategorias {
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  width: 200px;
+  height: 350px;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 10px;
+}
+.contProductos {
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  flex: 1;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.Agregar {
+  position: absolute;
+  background-color: rgb(216, 204, 32);
+  padding: 3px;
+  border-radius: 10px;
+  cursor: pointer;
+  bottom: 10px;
+  right: 10px;
+}
+.categorias {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+}
+.color {
+  color: white;
+}

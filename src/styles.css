@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+}
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+}
+.Contenedor {
+  display: flex;
+  flex: 1;
+  margin: 10px;
+}
+.Navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 10px;
+  background-color: pink;
+  align-items: center;
+}
+.Navbar a {
+  color: black;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.Footer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Footer .Datos {
+  background-color: #5fa4fa;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.Footer .Copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5px 0;
+  background-color: #5ffaa7;
+}
+.icono {
+  width: 100px;
+  height: 70px;
+  cursor: pointer;
+}
+.Boton {
+  background-color: #5ffaa7;
+  cursor: pointer;
+  padding: flex;
+  margin: 5px 0px;
+  font-size: 26px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+.inputs {
+  cursor: pointer;
+  padding: flex;
+  margin: 5px 0px;
+  font-size: 26px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 15px;
+}
+.card span {
+  margin: 5px 0;
+}
+.foto {
+  max-width: 150px;
+  max-height: 150px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.formulario {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  display: flex;
+  color: rgb(0, 0, 0);
+  height: 45px;
+}
+.kuromi {
+  width: 60px;
+}
+
+select {
+  border-radius: 12px;
+  margin: 1px;
+  background-color: #e05ffa;
+}

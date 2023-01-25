@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  background-color: gray;
+}
+
+.Padre {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+}
+.contFormulario {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  position: relative;
+}
+.Formulario {
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+  min-height: 60vh;
+  min-width: 50vh;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  border-radius: 30px;
+}
+.ListaProductos {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex: 1;
+}
+.input {
+  font-size: 15px;
+  min-height: 4vh;
+  min-width: 50vh;
+  border-radius: 7px;
+  padding: 5px;
+  margin: 7px;
+}
+.Guardar {
+  background-color: gray;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  padding: 5px;
+  font-family: sans-serif;
+}
+.producto {
+  width: 300px;
+  font-size: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 5px;
+  padding-top: 25px;
+}
+.Eliminar {
+  position: absolute;
+  background-color: gray;
+  padding: 3px;
+  border-radius: 10px;
+  cursor: pointer;
+  top: 7px;
+  right: 7px;
+}
+
+.Total {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  min-width: 50vh;
+  border-radius: 20px;
+  margin: 20px;
+}
+.eliminarTodo {
+  background-color: white;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  padding: 5px;
+  font-family: sans-serif;
+}
+.desple {
+  display: flex;
+  flex-direction: row;
+}
+.cont_boton {
+  height: 50%;
+  top: 40px;
+  justify-content: center;
+  bottom: 5px;
+  left: 5px;
+  right: 6px;
+  position: relative;
+}
+
+.tarea span {
+  cursor: pointer;
+}

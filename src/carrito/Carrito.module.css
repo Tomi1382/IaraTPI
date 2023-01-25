@@ -1,0 +1,85 @@
+.Contenedor {
+  height: calc(100% - 10vh);
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  background-color: #EAEDED;
+}
+
+.Carrito {
+  width: 100%;
+  height: calc(100% - 10vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Imagen, .Texto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Texto span{
+  padding: 10px;
+}
+
+
+.ContenedorCarrito {
+  flex: 3;
+  display: flex;
+  background-color: #EAEDED;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContenedorProductos {
+  background-color: white;
+  width: 95%;
+  height: 75%;
+  margin-bottom: 100px;
+  box-shadow: 2px 9px 18px -8px rgba(0,0,0,0.28);
+  border: 1px solid lightgray;
+}
+
+.ContenedorCard {
+  height: 600px;
+  overflow: scroll;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+.ContenedorSubtotal {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  border-top: 1px solid lightgray;
+}
+.Pago {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContenedorPago {
+  background-color: white;
+  width: 90%;
+  height: 30%;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 9px 18px -8px rgba(0,0,0,0.28);
+  border: 1px solid lightgray;
+}
+
+.ContenedorSubtotalPago {
+  display: flex;
+  flex: 3;
+  justify-content: center;
+  align-items: center;
+}
